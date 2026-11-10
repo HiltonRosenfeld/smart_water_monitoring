@@ -8,7 +8,7 @@ st.title("🚀 Welcome to the Water Meter Monitoring App!")
 st.write("Monitor and analyze your water meter data interactively.")
 
 # 2. Sidebar Navigation / Settings
-st.sidebar.header("User Settings")
+st.sidebar.header("Settings")
 user_name = st.sidebar.text_input("Enter the customer name", "Test123")
 
 # 3. Interactive Greeting Section
