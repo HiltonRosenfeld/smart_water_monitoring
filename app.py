@@ -14,8 +14,6 @@ user_name = st.sidebar.text_input("Enter the customer name", "Test123")
 # 3. Interactive Greeting Section
 st.header(f"Hello, {user_name}!")
 st.write("Adjust the interactive elements below to see the stats update in real-time.")
-st.write("Line 2: Additional information or instructions can go here.")
-st.write("Line 3: Additional information or instructions can go here.")
 
 # 4. Interactive Widget: Slider & Dynamic Calculations
 st.subheader("🔢 Dynamic Calculation")
