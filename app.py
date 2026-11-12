@@ -14,6 +14,8 @@ user_name = st.sidebar.text_input("Enter the customer name", "0987654321")
 # 3. Interactive Greeting Section
 st.header(f"Hello, {user_name}!")
 st.write("Adjust the interactive elements below to see the stats update in real-time.")
+st.write("Added Telemetry feature for real-time water meter monitoring.")
+st.write("Added Data Visualization feature for interactive chart analysis.")
 
 # 4. Interactive Widget: Slider & Dynamic Calculations
 st.subheader("🔢 Dynamic Calculation")
