@@ -16,7 +16,6 @@ st.header(f"Hello, {user_name}!")
 st.write("Adjust the interactive elements below to see the stats update in real-time.")
 st.write("Added Telemetry feature for real-time water meter monitoring.")
 st.write("Added Data Visualization feature for interactive chart analysis.")
-st.write("Added Dynamic Calculation feature for real-time data insights.")
 
 # 4. Interactive Widget: Slider & Dynamic Calculations
 st.subheader("🔢 Dynamic Calculation")
