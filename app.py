@@ -12,7 +12,7 @@ st.sidebar.header("Settings")
 user_name = st.sidebar.text_input("Enter the customer name", "default_customer")
 
 st.sidebar.header("Note")
-st.sidebar.write("Hello hows it going")
+st.sidebar.write("New feature goes here: Telemetry for real-time water meter monitoring")
 
 # 3. Interactive Greeting Section
 st.header(f"Hello, {user_name}!")
