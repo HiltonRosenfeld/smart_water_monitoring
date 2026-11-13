@@ -20,6 +20,9 @@ st.header(f"Hello, {user_name}!")
 st.write("Adjust the interactive elements below to see the stats update in real-time.")
 st.write("Added Telemetry feature for real-time water meter monitoring.")
 
+st.header("📡 Telemetry")
+st.write("Monitor your water meter data in real-time with the new telemetry feature.")
+
 # 4. Interactive Widget: Slider & Dynamic Calculations
 st.subheader("🔢 Dynamic Calculation")
 number = st.slider("Select a value:", min_value=1, max_value=100, value=25)
