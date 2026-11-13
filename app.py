@@ -11,6 +11,8 @@ st.write("Monitor and analyze your water meter data interactively.")
 st.sidebar.header("Settings")
 user_name = st.sidebar.text_input("Enter the customer name", "0987654321")
 
+st.sidebar.header("Note")
+
 # 3. Interactive Greeting Section
 st.header(f"Hello, {user_name}!")
 st.write("Adjust the interactive elements below to see the stats update in real-time.")
